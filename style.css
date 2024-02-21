@@ -1,0 +1,50 @@
+:root {
+    --cor1: #EFF5F5;
+    --cor2: #EB6440;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 4162px;
+}
+
+nav {
+    background-color: var(--cor2);
+    height: 80px;
+    display: flex;
+
+}
+
+nav div {
+    justify-content: space-around;
+    text-align: end;
+    word-spacing: 66px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+   
+    
+}
+
+
+/* nav {
+    padding: 0;
+    display: block;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 160px;
+    text-align: end;
+    word-spacing: 66px;
+} */
+
+img {
+    margin-left: 160px;
+}
