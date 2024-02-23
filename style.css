@@ -6,20 +6,14 @@
 body{
     padding: 0;
     margin: 0;
-    height: 4162px;
 }
 
 nav {
     background-color: var(--cor2);
     height: 80px;
-    width: auto;
     display: flex;
     justify-content: space-between;
-   
-    
-
 }
-
 nav span {
     flex-direction: row;
     align-items: center;
@@ -29,7 +23,6 @@ nav span {
 } 
 
 nav a{
-
     color: black;
     text-decoration: none;
     font-family: Nunito;
@@ -42,15 +35,20 @@ nav a{
 }
 
 .gatologo {
+    object-fit: cover;
     margin-left: 160px;
 }
 
 
+main img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
 
-
-
-
-.gatosfileira1 {
+.gatosprimeiro {
     padding: 0;
     margin: 0;
     text-align: center;
@@ -58,37 +56,12 @@ nav a{
    
 }
 
-.gatosfileira2 {
-    padding: 0;
-    margin: 0;
+.gatos {
     text-align: center;
 }
 
-.gatosfileira3 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
 
-.gatosfileira4 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.gatosfileira5 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.gatosfileira6 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.container {
+.container-footer {
     display: flex;
     background-color: var(--cor2);
     padding: 0;
@@ -109,3 +82,24 @@ h1 {
     font-weight: 700;
 }
 
+@media screen and (max-width: 1300){
+    body {
+        height: 100%;
+    }
+    
+    main {
+        display: block;
+        margin: 5% 20%;
+    }
+    nav {
+        display: block;
+    }
+    .gatologo {
+        justify-content: start;
+        height: auto;
+        width: auto;
+    }
+    .gatos {
+        display: block;
+    } 
+}
